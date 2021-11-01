@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7747415901161297589}
   - component: {fileID: 8786113180930788388}
   - component: {fileID: 7548429091566059728}
+  - component: {fileID: 2717019001691624852}
   m_Layer: 5
   m_Name: Grid Space
   m_TagString: Untagged
@@ -120,7 +121,34 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8786113180930788388}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2717019001691624852}
+        m_TargetAssemblyTypeName: GridSpace, Assembly-CSharp
+        m_MethodName: SetSpace
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2717019001691624852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7334070970990784603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c650c47f9c161489fe63ffca81a676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 7548429091566059728}
+  buttonText: {fileID: 2210911759504710666}
+  playerSide: X
 --- !u!1 &8844287644087249759
 GameObject:
   m_ObjectHideFlags: 0
@@ -132,6 +160,7 @@ GameObject:
   - component: {fileID: 3950363629014882112}
   - component: {fileID: 8819835434927959321}
   - component: {fileID: 2210911759504710666}
+  - component: {fileID: 5796447689433894709}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -200,3 +229,18 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 
+--- !u!114 &5796447689433894709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8844287644087249759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c650c47f9c161489fe63ffca81a676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 0}
+  buttonText: {fileID: 0}
+  playerSide: 
