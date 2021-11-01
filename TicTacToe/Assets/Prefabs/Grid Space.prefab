@@ -148,7 +148,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   button: {fileID: 7548429091566059728}
   buttonText: {fileID: 2210911759504710666}
-  playerSide: X
 --- !u!1 &8844287644087249759
 GameObject:
   m_ObjectHideFlags: 0
@@ -241,6 +240,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56c650c47f9c161489fe63ffca81a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: {fileID: 0}
-  buttonText: {fileID: 0}
-  playerSide: 
+  button: {fileID: 7548429091566059728}
+  buttonText: {fileID: 2210911759504710666}
